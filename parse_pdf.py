@@ -15,7 +15,7 @@ CONFIG = {
     "PROGRESS_FILE": "progress_v3.json",
     "MODEL_NAME": "qwen3.5:9b",
     "OLLAMA_URL": "http://localhost:11434/api/generate",
-    "CROP_DPI": 200,
+    "CROP_DPI": 150,
     "MIN_TEXT_CHARS": 100,
     "MIN_CYR_RATIO": 0.4,
     "MIN_IMG_W": 100,
