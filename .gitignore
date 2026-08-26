@@ -1,0 +1,13 @@
+# Документы пользователей
+*.pdf
+
+# Результаты прогонов (генерируются заново)
+rag_ready_data_*.md
+ready_data_*.md
+chunks_final.md
+progress_*.json
+
+# Служебное
+__pycache__/
+*.pyc
+*.log
