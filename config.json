@@ -1,0 +1,20 @@
+{
+  "PDF_FILE": "",
+  "OUTPUT_FILE": "ready_data_1.md",
+  "PROGRESS_FILE": "progress_1.json",
+  "MODEL_NAME": "qwen3.5:9b",
+  "OLLAMA_URL": "http://localhost:11434/api/generate",
+  "CROP_DPI": 150,
+  "MIN_TEXT_CHARS": 100,
+  "MIN_CYR_RATIO": 0.25,
+  "MIN_IMG_W": 100,
+  "MIN_IMG_H": 80,
+  "MARGIN": 10,
+  "RESET_EVERY": 20,
+  "_COMMENTS": {
+    "PDF_FILE": "Оставь пустым — возьмёт первый PDF в папке. Или укажи имя: 'manual.pdf'",
+    "MODEL_NAME": "Локальная модель Ollama. Примеры: qwen3.5:4b, qwen3.5:9b",
+    "CROP_DPI": "Качество картинок. 200=хорошо, 150=быстрее, 300=медленно+лучше",
+    "RESET_EVERY": "Каждые N страниц выгружаем модель из памяти (чистим ОЗУ)"
+  }
+}
